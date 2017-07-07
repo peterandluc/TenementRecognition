@@ -299,7 +299,7 @@ if __name__ == '__main__':
     jieba.initialize()
     # if you want output QR in cmd, try:
     # itchat.auto_login(enableCmdQR=True)
-    itchat.auto_login(hotReload=True, exitCallback=ex, enableCmdQR=1)
+    itchat.auto_login(hotReload=True, exitCallback=ex, enableCmdQR=2)
     itchat.run()
 
 
